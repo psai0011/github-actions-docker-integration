@@ -4,4 +4,4 @@ def test_home():
     response = app.test_client().get("/")
 
     assert response.status_code == 200
-    assert response.data == "Hello World!"  # Use exact casing and bytes
+    assert response.data.decode() == "Hello World!"  # decode bytes to string
