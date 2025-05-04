@@ -10,7 +10,7 @@ This is a simple Flask project that demonstrates CI/CD using GitHub Actions and 
 ├── test_app.py          # Pytest for testing the app
 ├── Dockerfile           # Docker image build instructions
 ├── .github/workflows/
-│   └── main.yml         # GitHub Actions workflow file
+│   └── cicd.yml         # GitHub Actions workflow file
 └── README.md            # Project documentation
 ```
 
